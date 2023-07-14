@@ -1,0 +1,85 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/main.css">
+     <link rel="stylesheet" href="css/reset.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400&display=swap" rel="stylesheet">
+     <title>Contact</title>
+ </head>
+
+ <body>
+     <!-- Navigation section -->
+     <header class="container">
+         <!-- Navigation section -->
+         <nav class="contact-nav">
+
+             <ul class="nav-list">
+                 <li>
+                     <div>
+                         <a href="index.html"><img src="images/logo_brown.png" alt="La Panneteria" class="logo"></a>
+                     </div>
+                 </li>
+                 <li><a href="index.html" class="current">Home</a></li>
+                 <li><a href="about-us.html">About Us</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+             </ul>
+         </nav>
+     </header>
+
+     <!-- Contact section -->
+     <section class="contact" id="contact">
+         <!-- Message -->
+         <div class="send">
+             <!-- Hours of Operation -->
+
+             <div class="operation">
+                 <h2>Hours of Operation</h2>
+                 <p>Monday to Friday from 6AM to 8PM</p>
+                 <p>Saturday and Friday 7AM to 6PM</p>
+             </div>
+
+             <form class="message" action="thanks.html" method="get">
+                 <h2>Send us a message</h2>
+                 <div>
+                     <label for="fullname">Full Name</label>
+                     <input type="text" id="fullname" name="Fullname">
+                 </div>
+
+                 <div>
+                     <label for="email">E-mail</label>
+                     <input type="text" id="email" name="E-mail">
+                 </div>
+
+                 <div>
+                     <label for="message">Message</label>
+                     <textarea name="message" id="message"></textarea>
+                 </div>
+                 <button type="submit">Send</button>
+             </form>
+         </div>
+
+         <!-- Location -->
+         <div class="map">
+             <h2>Location</h2>
+             <p>344 Preston Street, Ottawa ON K1S 4M6</p>
+             <iframe
+                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2801.3543983979466!2d-75.7107446!3d45.4021926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0434491d7791%3A0xb0c73d51329b717b!2s344%20Preston%20St%2C%20Ottawa%2C%20ON%20K1S%204M6!5e0!3m2!1spt-BR!2sca!4v1689133506434!5m2!1spt-BR!2sca"
+                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                 referrerpolicy="no-referrer-when-downgrade">
+             </iframe>
+         </div>
+     </section>
+
+     <!-- Footer section -->
+     <footer class="copy">
+         <p>&copy; La Panneteria, 2023.</p>
+         <p>All images are taken from <a href="https://pexels.com/">Pexels</a></p>
+     </footer>
+ </body>
+
+ </html>
